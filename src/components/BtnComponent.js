@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const BtnComponent = () => {
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(1);
   return (
     <div>
        <p>Button clicked {count} times</p><br/><br/>
@@ -11,3 +11,5 @@ const BtnComponent = () => {
 }
 
 export default BtnComponent;
+
+//done

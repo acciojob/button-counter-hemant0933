@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const BtnComponent = () => {
-    const [count, setCount] = useState(1);
+const BtnComponent = ({count,setCount}) => {
+    // const [count, setCount] = useState(1);
+
   return (
     <div>
        <p>Button clicked {count} times</p><br/><br/>

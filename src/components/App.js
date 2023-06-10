@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <div>
-    <BtnComponent/>
+    <BtnComponent setCount={setCount} />
     </div>
   )
 }
